@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Split >
+  <Version value="7.26.7.114" />
+  <ServerName value="Split" />
+  <InputDir value="D:\temp\SBE19\Ask&#xF6; 2018-10-03\SBE911\Electra181003084240_EL18-TZS-15-CTD1" />
+  <InputFileArray size="1" GrowBy="-1" >
+    <ArrayItem index="0" value="EL18-TZS-15-CTD1_SMHI.cnv" />
+  </InputFileArray>
+  <OutputDir value="D:\temp\SBE19\Ask&#xF6; 2018-10-03\SBE911\Electra181003084240_EL18-TZS-15-CTD1" />
+  <NameAppend value="" />
+  <OutputFile value="EL18-TZS-15-CTD1_SMHI" />
+  <LastProcessed value="0" />
+  <OutputFiles value="0" high="1" low="0" initialValue="0" />
+  <ExcludeMarkedBad value="1" />
+</Split>
