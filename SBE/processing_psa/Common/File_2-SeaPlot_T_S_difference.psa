@@ -1,48 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Sea_Plot >
+<Sea_Plot>
   <Version value="7.22.4" />
   <ServerName value="Sea Plot" />
   <InputDir value="C:\ctd\data\2016" />
-  <InputFileArray size="1" GrowBy="-1" >
+  <InputFileArray GrowBy="-1" size="1">
     <ArrayItem index="0" value="SBE09_0745_20161211_0804_34_01_0618.cnv" />
   </InputFileArray>
-  <OutputType value="2" high="3" low="0" initialValue="0" />
+  <OutputType high="3" initialValue="0" low="0" value="2" />
   <OutputDir value="C:\ctd\data\2016" />
   <NameAppend value="" />
   <OutputFile value="SBE09_0745_20161211_0804_34_01_0618.jpg" />
   <LastProcessed value="0" />
-  <PrintSetup >
-    <Orientation value="0" high="2" low="0" initialValue="1" />
+  <PrintSetup>
+    <Orientation high="2" initialValue="1" low="0" value="0" />
     <PrintFullPage value="1" />
-    <OutputUnits value="0" high="2" low="0" initialValue="0" />
+    <OutputUnits high="2" initialValue="0" low="0" value="0" />
     <OutputWidth value="160.000000" />
     <OutputHeight value="120.000000" />
   </PrintSetup>
-  <MetafileSetup >
-    <OutputUnits value="0" high="2" low="0" initialValue="0" />
+  <MetafileSetup>
+    <OutputUnits high="2" initialValue="0" low="0" value="0" />
     <OutputWidth value="160.000000" />
     <OutputHeight value="120.000000" />
   </MetafileSetup>
-  <JpegSetup >
+  <JpegSetup>
     <OutputWidth value="2000" />
     <OutputHeight value="2000" />
   </JpegSetup>
-  <BitmapSetup >
+  <BitmapSetup>
     <OutputWidth value="512" />
     <OutputHeight value="384" />
   </BitmapSetup>
-  <PlotType value="2" high="5" low="0" initialValue="2" />
-  <Title value="BY2" />
+  <PlotType high="5" initialValue="2" low="0" value="2" />
+  <Title value="BY15" />
   <AddFileName value="1" />
   <TitleColor value="0" />
   <FontType value="Arial" />
-  <FontSize value="1" high="2" low="0" initialValue="2" />
-  <GridLine value="0" high="3" low="0" initialValue="3" />
-  <GridStyle value="2" high="3" low="0" initialValue="0" />
+  <FontSize high="2" initialValue="2" low="0" value="1" />
+  <GridLine high="3" initialValue="3" low="0" value="0" />
+  <GridStyle high="3" initialValue="0" low="0" value="2" />
   <GridInFront value="0" />
   <InsideBackColor value="16777215" />
   <OutsideBackColor value="16777215" />
-  <SymbolSize value="0" high="2" low="0" initialValue="0" />
+  <SymbolSize high="2" initialValue="0" low="0" value="0" />
   <SymbolFrequency value="6" />
   <MonchromePlot value="0" />
   <PlotSymbolsOnly value="0" />
@@ -57,11 +56,11 @@
   <SkipBetweenPoints value="0" />
   <PlotBadScans value="0" />
   <LiftPenOverBadData value="1" />
-  <PrintSizeFrom value="0" high="2" low="0" initialValue="0" />
-  <Axis index="0" >
+  <PrintSizeFrom high="2" initialValue="0" low="0" value="0" />
+  <Axis index="0">
     <IncludeAxis value="1" />
     <CalcID value="17" />
-    <Calc UnitID="30" Ordinal="0" >
+    <Calc Ordinal="0" UnitID="30">
       <FullName value="Depth [fresh water, m]" />
       <Latitude value="0.000000" />
     </Calc>
@@ -70,9 +69,9 @@
     <ConvertSystemTimeToLocalTime value="0" />
     <AutoLabel value="0" />
     <CustomLabel value="True Depth [m]" />
-    <LineType value="5" high="11" low="0" initialValue="0" />
+    <LineType high="11" initialValue="0" low="0" value="5" />
     <LineColor value="16711680" />
-    <LineSymbol value="3" high="13" low="0" initialValue="3" />
+    <LineSymbol high="13" initialValue="3" low="0" value="3" />
     <LinearScale value="1" />
     <AutoRange value="1" />
     <FixedMinimum value="0.000000" />
@@ -83,10 +82,10 @@
     <ReverseScale value="1" />
     <DupCnt value="0" />
   </Axis>
-  <Axis index="1" >
+  <Axis index="1">
     <IncludeAxis value="1" />
     <CalcID value="81" />
-    <Calc UnitID="6" Ordinal="0" >
+    <Calc Ordinal="0" UnitID="6">
       <FullName value="Temperature [ITS-90, deg C]" />
     </Calc>
     <Derived value="0" />
@@ -94,9 +93,9 @@
     <ConvertSystemTimeToLocalTime value="0" />
     <AutoLabel value="1" />
     <CustomLabel value="Temperature-1" />
-    <LineType value="5" high="11" low="0" initialValue="0" />
+    <LineType high="11" initialValue="0" low="0" value="5" />
     <LineColor value="16711680" />
-    <LineSymbol value="3" high="13" low="0" initialValue="3" />
+    <LineSymbol high="13" initialValue="3" low="0" value="3" />
     <LinearScale value="1" />
     <AutoRange value="0" />
     <FixedMinimum value="0.000000" />
@@ -107,10 +106,10 @@
     <ReverseScale value="0" />
     <DupCnt value="0" />
   </Axis>
-  <Axis index="2" >
+  <Axis index="2">
     <IncludeAxis value="1" />
     <CalcID value="82" />
-    <Calc UnitID="6" Ordinal="0" >
+    <Calc Ordinal="0" UnitID="6">
       <FullName value="Temperature Difference, 2 - 1 [ITS-90, deg C]" />
     </Calc>
     <Derived value="0" />
@@ -118,9 +117,9 @@
     <ConvertSystemTimeToLocalTime value="0" />
     <AutoLabel value="1" />
     <CustomLabel value="Temperature Difference" />
-    <LineType value="5" high="11" low="0" initialValue="0" />
+    <LineType high="11" initialValue="0" low="0" value="5" />
     <LineColor value="32768" />
-    <LineSymbol value="9" high="13" low="0" initialValue="3" />
+    <LineSymbol high="13" initialValue="3" low="0" value="9" />
     <LinearScale value="1" />
     <AutoRange value="0" />
     <FixedMinimum value="-0.200000" />
@@ -131,10 +130,10 @@
     <ReverseScale value="0" />
     <DupCnt value="0" />
   </Axis>
-  <Axis index="3" >
+  <Axis index="3">
     <IncludeAxis value="1" />
     <CalcID value="70" />
-    <Calc UnitID="49" Ordinal="0" >
+    <Calc Ordinal="0" UnitID="49">
       <FullName value="Salinity, Practical [PSU]" />
     </Calc>
     <Derived value="0" />
@@ -142,9 +141,9 @@
     <ConvertSystemTimeToLocalTime value="0" />
     <AutoLabel value="1" />
     <CustomLabel value="Salinity-1" />
-    <LineType value="5" high="11" low="0" initialValue="0" />
+    <LineType high="11" initialValue="0" low="0" value="5" />
     <LineColor value="255" />
-    <LineSymbol value="5" high="13" low="0" initialValue="3" />
+    <LineSymbol high="13" initialValue="3" low="0" value="5" />
     <LinearScale value="1" />
     <AutoRange value="0" />
     <FixedMinimum value="0.000000" />
@@ -155,10 +154,10 @@
     <ReverseScale value="0" />
     <DupCnt value="0" />
   </Axis>
-  <Axis index="4" >
+  <Axis index="4">
     <IncludeAxis value="1" />
     <CalcID value="71" />
-    <Calc UnitID="49" Ordinal="0" >
+    <Calc Ordinal="0" UnitID="49">
       <FullName value="Salinity, Practical, Difference, 2 - 1 [PSU]" />
     </Calc>
     <Derived value="0" />
@@ -166,9 +165,9 @@
     <ConvertSystemTimeToLocalTime value="0" />
     <AutoLabel value="1" />
     <CustomLabel value="Salinity difference" />
-    <LineType value="5" high="11" low="0" initialValue="0" />
+    <LineType high="11" initialValue="0" low="0" value="5" />
     <LineColor value="16512" />
-    <LineSymbol value="11" high="13" low="0" initialValue="3" />
+    <LineSymbol high="13" initialValue="3" low="0" value="11" />
     <LinearScale value="1" />
     <AutoRange value="0" />
     <FixedMinimum value="-0.200000" />
@@ -179,248 +178,248 @@
     <ReverseScale value="0" />
     <DupCnt value="0" />
   </Axis>
-  <PrintOptionsView >
-    <Orientation value="2" high="2" low="0" initialValue="1" />
+  <PrintOptionsView>
+    <Orientation high="2" initialValue="1" low="0" value="2" />
     <PrintFullPage value="1" />
-    <OutputUnits value="0" high="2" low="0" initialValue="0" />
+    <OutputUnits high="2" initialValue="0" low="0" value="0" />
     <OutputWidth value="160.000000" />
     <OutputHeight value="120.000000" />
   </PrintOptionsView>
-  <FileOptionsView >
-    <DataFormat value="0" high="2" low="0" initialValue="0" />
-    <MetafileSizeFrom value="0" high="2" low="0" initialValue="0" />
-    <JpegSizeFrom value="0" high="2" low="0" initialValue="0" />
-    <bitmapSizeFrom value="0" high="2" low="0" initialValue="0" />
-    <MetafileView >
-      <OutputUnits value="0" high="2" low="0" initialValue="0" />
+  <FileOptionsView>
+    <DataFormat high="2" initialValue="0" low="0" value="0" />
+    <MetafileSizeFrom high="2" initialValue="0" low="0" value="0" />
+    <JpegSizeFrom high="2" initialValue="0" low="0" value="0" />
+    <bitmapSizeFrom high="2" initialValue="0" low="0" value="0" />
+    <MetafileView>
+      <OutputUnits high="2" initialValue="0" low="0" value="0" />
       <OutputWidth value="160.000000" />
       <OutputHeight value="120.000000" />
     </MetafileView>
-    <JpegView >
+    <JpegView>
       <OutputWidth value="512" />
       <OutputHeight value="384" />
     </JpegView>
-    <BitmapView >
+    <BitmapView>
       <OutputWidth value="512" />
       <OutputHeight value="384" />
     </BitmapView>
   </FileOptionsView>
-  <ClipOptionsView >
-    <DataFormat value="0" high="2" low="0" initialValue="0" />
-    <MetafileSizeFrom value="0" high="2" low="0" initialValue="0" />
-    <JpegSizeFrom value="0" high="2" low="0" initialValue="0" />
-    <bitmapSizeFrom value="0" high="2" low="0" initialValue="0" />
-    <MetafileView >
-      <OutputUnits value="0" high="2" low="0" initialValue="0" />
+  <ClipOptionsView>
+    <DataFormat high="2" initialValue="0" low="0" value="0" />
+    <MetafileSizeFrom high="2" initialValue="0" low="0" value="0" />
+    <JpegSizeFrom high="2" initialValue="0" low="0" value="0" />
+    <bitmapSizeFrom high="2" initialValue="0" low="0" value="0" />
+    <MetafileView>
+      <OutputUnits high="2" initialValue="0" low="0" value="0" />
       <OutputWidth value="160.000000" />
       <OutputHeight value="120.000000" />
     </MetafileView>
-    <JpegView >
+    <JpegView>
       <OutputWidth value="512" />
       <OutputHeight value="384" />
     </JpegView>
-    <BitmapView >
+    <BitmapView>
       <OutputWidth value="512" />
       <OutputHeight value="384" />
     </BitmapView>
   </ClipOptionsView>
-  <OverlaySetup >
+  <OverlaySetup>
     <Offset ColumnIndex="0" Offset="0.000000" />
     <Offset ColumnIndex="1" Offset="0.000000" />
     <Offset ColumnIndex="2" Offset="0.000000" />
     <Offset ColumnIndex="3" Offset="0.000000" />
-    <ColorArray >
-      <Color index="0" Row="0" Col="0" Value="32768" />
-      <Color index="1" Row="0" Col="1" Value="8388608" />
-      <Color index="2" Row="0" Col="2" Value="128" />
-      <Color index="3" Row="0" Col="3" Value="8388736" />
-      <Color index="4" Row="0" Col="4" Value="32768" />
-      <Color index="5" Row="1" Col="0" Value="32768" />
-      <Color index="6" Row="1" Col="1" Value="8388608" />
-      <Color index="7" Row="1" Col="2" Value="128" />
-      <Color index="8" Row="1" Col="3" Value="8388736" />
-      <Color index="9" Row="1" Col="4" Value="32768" />
-      <Color index="10" Row="2" Col="0" Value="32768" />
-      <Color index="11" Row="2" Col="1" Value="8388608" />
-      <Color index="12" Row="2" Col="2" Value="128" />
-      <Color index="13" Row="2" Col="3" Value="8388736" />
-      <Color index="14" Row="2" Col="4" Value="32768" />
-      <Color index="15" Row="3" Col="0" Value="32768" />
-      <Color index="16" Row="3" Col="1" Value="8388608" />
-      <Color index="17" Row="3" Col="2" Value="128" />
-      <Color index="18" Row="3" Col="3" Value="8388736" />
-      <Color index="19" Row="3" Col="4" Value="32768" />
-      <Color index="20" Row="4" Col="0" Value="32768" />
-      <Color index="21" Row="4" Col="1" Value="8388608" />
-      <Color index="22" Row="4" Col="2" Value="128" />
-      <Color index="23" Row="4" Col="3" Value="8388736" />
-      <Color index="24" Row="4" Col="4" Value="32768" />
-      <Color index="25" Row="5" Col="0" Value="32768" />
-      <Color index="26" Row="5" Col="1" Value="8388608" />
-      <Color index="27" Row="5" Col="2" Value="128" />
-      <Color index="28" Row="5" Col="3" Value="8388736" />
-      <Color index="29" Row="5" Col="4" Value="32768" />
-      <Color index="30" Row="6" Col="0" Value="32768" />
-      <Color index="31" Row="6" Col="1" Value="8388608" />
-      <Color index="32" Row="6" Col="2" Value="128" />
-      <Color index="33" Row="6" Col="3" Value="8388736" />
-      <Color index="34" Row="6" Col="4" Value="32768" />
-      <Color index="35" Row="7" Col="0" Value="32768" />
-      <Color index="36" Row="7" Col="1" Value="8388608" />
-      <Color index="37" Row="7" Col="2" Value="128" />
-      <Color index="38" Row="7" Col="3" Value="8388736" />
-      <Color index="39" Row="7" Col="4" Value="32768" />
-      <Color index="40" Row="8" Col="0" Value="32768" />
-      <Color index="41" Row="8" Col="1" Value="8388608" />
-      <Color index="42" Row="8" Col="2" Value="128" />
-      <Color index="43" Row="8" Col="3" Value="8388736" />
-      <Color index="44" Row="8" Col="4" Value="32768" />
-      <Color index="45" Row="9" Col="0" Value="32768" />
-      <Color index="46" Row="9" Col="1" Value="8388608" />
-      <Color index="47" Row="9" Col="2" Value="128" />
-      <Color index="48" Row="9" Col="3" Value="8388736" />
-      <Color index="49" Row="9" Col="4" Value="32768" />
+    <ColorArray>
+      <Color Col="0" Row="0" Value="32768" index="0" />
+      <Color Col="1" Row="0" Value="8388608" index="1" />
+      <Color Col="2" Row="0" Value="128" index="2" />
+      <Color Col="3" Row="0" Value="8388736" index="3" />
+      <Color Col="4" Row="0" Value="32768" index="4" />
+      <Color Col="0" Row="1" Value="32768" index="5" />
+      <Color Col="1" Row="1" Value="8388608" index="6" />
+      <Color Col="2" Row="1" Value="128" index="7" />
+      <Color Col="3" Row="1" Value="8388736" index="8" />
+      <Color Col="4" Row="1" Value="32768" index="9" />
+      <Color Col="0" Row="2" Value="32768" index="10" />
+      <Color Col="1" Row="2" Value="8388608" index="11" />
+      <Color Col="2" Row="2" Value="128" index="12" />
+      <Color Col="3" Row="2" Value="8388736" index="13" />
+      <Color Col="4" Row="2" Value="32768" index="14" />
+      <Color Col="0" Row="3" Value="32768" index="15" />
+      <Color Col="1" Row="3" Value="8388608" index="16" />
+      <Color Col="2" Row="3" Value="128" index="17" />
+      <Color Col="3" Row="3" Value="8388736" index="18" />
+      <Color Col="4" Row="3" Value="32768" index="19" />
+      <Color Col="0" Row="4" Value="32768" index="20" />
+      <Color Col="1" Row="4" Value="8388608" index="21" />
+      <Color Col="2" Row="4" Value="128" index="22" />
+      <Color Col="3" Row="4" Value="8388736" index="23" />
+      <Color Col="4" Row="4" Value="32768" index="24" />
+      <Color Col="0" Row="5" Value="32768" index="25" />
+      <Color Col="1" Row="5" Value="8388608" index="26" />
+      <Color Col="2" Row="5" Value="128" index="27" />
+      <Color Col="3" Row="5" Value="8388736" index="28" />
+      <Color Col="4" Row="5" Value="32768" index="29" />
+      <Color Col="0" Row="6" Value="32768" index="30" />
+      <Color Col="1" Row="6" Value="8388608" index="31" />
+      <Color Col="2" Row="6" Value="128" index="32" />
+      <Color Col="3" Row="6" Value="8388736" index="33" />
+      <Color Col="4" Row="6" Value="32768" index="34" />
+      <Color Col="0" Row="7" Value="32768" index="35" />
+      <Color Col="1" Row="7" Value="8388608" index="36" />
+      <Color Col="2" Row="7" Value="128" index="37" />
+      <Color Col="3" Row="7" Value="8388736" index="38" />
+      <Color Col="4" Row="7" Value="32768" index="39" />
+      <Color Col="0" Row="8" Value="32768" index="40" />
+      <Color Col="1" Row="8" Value="8388608" index="41" />
+      <Color Col="2" Row="8" Value="128" index="42" />
+      <Color Col="3" Row="8" Value="8388736" index="43" />
+      <Color Col="4" Row="8" Value="32768" index="44" />
+      <Color Col="0" Row="9" Value="32768" index="45" />
+      <Color Col="1" Row="9" Value="8388608" index="46" />
+      <Color Col="2" Row="9" Value="128" index="47" />
+      <Color Col="3" Row="9" Value="8388736" index="48" />
+      <Color Col="4" Row="9" Value="32768" index="49" />
     </ColorArray>
-    <SymbolArray >
-      <Symbol index="0" Row="0" Col="0" Value="3" />
-      <Symbol index="1" Row="0" Col="1" Value="9" />
-      <Symbol index="2" Row="0" Col="2" Value="5" />
-      <Symbol index="3" Row="0" Col="3" Value="11" />
-      <Symbol index="4" Row="0" Col="4" Value="3" />
-      <Symbol index="5" Row="1" Col="0" Value="3" />
-      <Symbol index="6" Row="1" Col="1" Value="9" />
-      <Symbol index="7" Row="1" Col="2" Value="5" />
-      <Symbol index="8" Row="1" Col="3" Value="11" />
-      <Symbol index="9" Row="1" Col="4" Value="3" />
-      <Symbol index="10" Row="2" Col="0" Value="3" />
-      <Symbol index="11" Row="2" Col="1" Value="9" />
-      <Symbol index="12" Row="2" Col="2" Value="5" />
-      <Symbol index="13" Row="2" Col="3" Value="11" />
-      <Symbol index="14" Row="2" Col="4" Value="3" />
-      <Symbol index="15" Row="3" Col="0" Value="3" />
-      <Symbol index="16" Row="3" Col="1" Value="9" />
-      <Symbol index="17" Row="3" Col="2" Value="5" />
-      <Symbol index="18" Row="3" Col="3" Value="11" />
-      <Symbol index="19" Row="3" Col="4" Value="3" />
-      <Symbol index="20" Row="4" Col="0" Value="3" />
-      <Symbol index="21" Row="4" Col="1" Value="9" />
-      <Symbol index="22" Row="4" Col="2" Value="5" />
-      <Symbol index="23" Row="4" Col="3" Value="11" />
-      <Symbol index="24" Row="4" Col="4" Value="3" />
-      <Symbol index="25" Row="5" Col="0" Value="3" />
-      <Symbol index="26" Row="5" Col="1" Value="9" />
-      <Symbol index="27" Row="5" Col="2" Value="5" />
-      <Symbol index="28" Row="5" Col="3" Value="11" />
-      <Symbol index="29" Row="5" Col="4" Value="3" />
-      <Symbol index="30" Row="6" Col="0" Value="3" />
-      <Symbol index="31" Row="6" Col="1" Value="9" />
-      <Symbol index="32" Row="6" Col="2" Value="5" />
-      <Symbol index="33" Row="6" Col="3" Value="11" />
-      <Symbol index="34" Row="6" Col="4" Value="3" />
-      <Symbol index="35" Row="7" Col="0" Value="3" />
-      <Symbol index="36" Row="7" Col="1" Value="9" />
-      <Symbol index="37" Row="7" Col="2" Value="5" />
-      <Symbol index="38" Row="7" Col="3" Value="11" />
-      <Symbol index="39" Row="7" Col="4" Value="3" />
-      <Symbol index="40" Row="8" Col="0" Value="3" />
-      <Symbol index="41" Row="8" Col="1" Value="9" />
-      <Symbol index="42" Row="8" Col="2" Value="5" />
-      <Symbol index="43" Row="8" Col="3" Value="11" />
-      <Symbol index="44" Row="8" Col="4" Value="3" />
-      <Symbol index="45" Row="9" Col="0" Value="3" />
-      <Symbol index="46" Row="9" Col="1" Value="9" />
-      <Symbol index="47" Row="9" Col="2" Value="5" />
-      <Symbol index="48" Row="9" Col="3" Value="11" />
-      <Symbol index="49" Row="9" Col="4" Value="3" />
+    <SymbolArray>
+      <Symbol Col="0" Row="0" Value="3" index="0" />
+      <Symbol Col="1" Row="0" Value="9" index="1" />
+      <Symbol Col="2" Row="0" Value="5" index="2" />
+      <Symbol Col="3" Row="0" Value="11" index="3" />
+      <Symbol Col="4" Row="0" Value="3" index="4" />
+      <Symbol Col="0" Row="1" Value="3" index="5" />
+      <Symbol Col="1" Row="1" Value="9" index="6" />
+      <Symbol Col="2" Row="1" Value="5" index="7" />
+      <Symbol Col="3" Row="1" Value="11" index="8" />
+      <Symbol Col="4" Row="1" Value="3" index="9" />
+      <Symbol Col="0" Row="2" Value="3" index="10" />
+      <Symbol Col="1" Row="2" Value="9" index="11" />
+      <Symbol Col="2" Row="2" Value="5" index="12" />
+      <Symbol Col="3" Row="2" Value="11" index="13" />
+      <Symbol Col="4" Row="2" Value="3" index="14" />
+      <Symbol Col="0" Row="3" Value="3" index="15" />
+      <Symbol Col="1" Row="3" Value="9" index="16" />
+      <Symbol Col="2" Row="3" Value="5" index="17" />
+      <Symbol Col="3" Row="3" Value="11" index="18" />
+      <Symbol Col="4" Row="3" Value="3" index="19" />
+      <Symbol Col="0" Row="4" Value="3" index="20" />
+      <Symbol Col="1" Row="4" Value="9" index="21" />
+      <Symbol Col="2" Row="4" Value="5" index="22" />
+      <Symbol Col="3" Row="4" Value="11" index="23" />
+      <Symbol Col="4" Row="4" Value="3" index="24" />
+      <Symbol Col="0" Row="5" Value="3" index="25" />
+      <Symbol Col="1" Row="5" Value="9" index="26" />
+      <Symbol Col="2" Row="5" Value="5" index="27" />
+      <Symbol Col="3" Row="5" Value="11" index="28" />
+      <Symbol Col="4" Row="5" Value="3" index="29" />
+      <Symbol Col="0" Row="6" Value="3" index="30" />
+      <Symbol Col="1" Row="6" Value="9" index="31" />
+      <Symbol Col="2" Row="6" Value="5" index="32" />
+      <Symbol Col="3" Row="6" Value="11" index="33" />
+      <Symbol Col="4" Row="6" Value="3" index="34" />
+      <Symbol Col="0" Row="7" Value="3" index="35" />
+      <Symbol Col="1" Row="7" Value="9" index="36" />
+      <Symbol Col="2" Row="7" Value="5" index="37" />
+      <Symbol Col="3" Row="7" Value="11" index="38" />
+      <Symbol Col="4" Row="7" Value="3" index="39" />
+      <Symbol Col="0" Row="8" Value="3" index="40" />
+      <Symbol Col="1" Row="8" Value="9" index="41" />
+      <Symbol Col="2" Row="8" Value="5" index="42" />
+      <Symbol Col="3" Row="8" Value="11" index="43" />
+      <Symbol Col="4" Row="8" Value="3" index="44" />
+      <Symbol Col="0" Row="9" Value="3" index="45" />
+      <Symbol Col="1" Row="9" Value="9" index="46" />
+      <Symbol Col="2" Row="9" Value="5" index="47" />
+      <Symbol Col="3" Row="9" Value="11" index="48" />
+      <Symbol Col="4" Row="9" Value="3" index="49" />
     </SymbolArray>
-    <LineArray >
-      <Line index="0" Row="0" Col="0" Value="0" />
-      <Line index="1" Row="0" Col="1" Value="0" />
-      <Line index="2" Row="0" Col="2" Value="0" />
-      <Line index="3" Row="0" Col="3" Value="0" />
-      <Line index="4" Row="0" Col="4" Value="0" />
-      <Line index="5" Row="1" Col="0" Value="0" />
-      <Line index="6" Row="1" Col="1" Value="0" />
-      <Line index="7" Row="1" Col="2" Value="0" />
-      <Line index="8" Row="1" Col="3" Value="0" />
-      <Line index="9" Row="1" Col="4" Value="0" />
-      <Line index="10" Row="2" Col="0" Value="0" />
-      <Line index="11" Row="2" Col="1" Value="0" />
-      <Line index="12" Row="2" Col="2" Value="0" />
-      <Line index="13" Row="2" Col="3" Value="0" />
-      <Line index="14" Row="2" Col="4" Value="0" />
-      <Line index="15" Row="3" Col="0" Value="0" />
-      <Line index="16" Row="3" Col="1" Value="0" />
-      <Line index="17" Row="3" Col="2" Value="0" />
-      <Line index="18" Row="3" Col="3" Value="0" />
-      <Line index="19" Row="3" Col="4" Value="0" />
-      <Line index="20" Row="4" Col="0" Value="0" />
-      <Line index="21" Row="4" Col="1" Value="0" />
-      <Line index="22" Row="4" Col="2" Value="0" />
-      <Line index="23" Row="4" Col="3" Value="0" />
-      <Line index="24" Row="4" Col="4" Value="0" />
-      <Line index="25" Row="5" Col="0" Value="0" />
-      <Line index="26" Row="5" Col="1" Value="0" />
-      <Line index="27" Row="5" Col="2" Value="0" />
-      <Line index="28" Row="5" Col="3" Value="0" />
-      <Line index="29" Row="5" Col="4" Value="0" />
-      <Line index="30" Row="6" Col="0" Value="0" />
-      <Line index="31" Row="6" Col="1" Value="0" />
-      <Line index="32" Row="6" Col="2" Value="0" />
-      <Line index="33" Row="6" Col="3" Value="0" />
-      <Line index="34" Row="6" Col="4" Value="0" />
-      <Line index="35" Row="7" Col="0" Value="0" />
-      <Line index="36" Row="7" Col="1" Value="0" />
-      <Line index="37" Row="7" Col="2" Value="0" />
-      <Line index="38" Row="7" Col="3" Value="0" />
-      <Line index="39" Row="7" Col="4" Value="0" />
-      <Line index="40" Row="8" Col="0" Value="0" />
-      <Line index="41" Row="8" Col="1" Value="0" />
-      <Line index="42" Row="8" Col="2" Value="0" />
-      <Line index="43" Row="8" Col="3" Value="0" />
-      <Line index="44" Row="8" Col="4" Value="0" />
-      <Line index="45" Row="9" Col="0" Value="0" />
-      <Line index="46" Row="9" Col="1" Value="0" />
-      <Line index="47" Row="9" Col="2" Value="0" />
-      <Line index="48" Row="9" Col="3" Value="0" />
-      <Line index="49" Row="9" Col="4" Value="0" />
+    <LineArray>
+      <Line Col="0" Row="0" Value="0" index="0" />
+      <Line Col="1" Row="0" Value="0" index="1" />
+      <Line Col="2" Row="0" Value="0" index="2" />
+      <Line Col="3" Row="0" Value="0" index="3" />
+      <Line Col="4" Row="0" Value="0" index="4" />
+      <Line Col="0" Row="1" Value="0" index="5" />
+      <Line Col="1" Row="1" Value="0" index="6" />
+      <Line Col="2" Row="1" Value="0" index="7" />
+      <Line Col="3" Row="1" Value="0" index="8" />
+      <Line Col="4" Row="1" Value="0" index="9" />
+      <Line Col="0" Row="2" Value="0" index="10" />
+      <Line Col="1" Row="2" Value="0" index="11" />
+      <Line Col="2" Row="2" Value="0" index="12" />
+      <Line Col="3" Row="2" Value="0" index="13" />
+      <Line Col="4" Row="2" Value="0" index="14" />
+      <Line Col="0" Row="3" Value="0" index="15" />
+      <Line Col="1" Row="3" Value="0" index="16" />
+      <Line Col="2" Row="3" Value="0" index="17" />
+      <Line Col="3" Row="3" Value="0" index="18" />
+      <Line Col="4" Row="3" Value="0" index="19" />
+      <Line Col="0" Row="4" Value="0" index="20" />
+      <Line Col="1" Row="4" Value="0" index="21" />
+      <Line Col="2" Row="4" Value="0" index="22" />
+      <Line Col="3" Row="4" Value="0" index="23" />
+      <Line Col="4" Row="4" Value="0" index="24" />
+      <Line Col="0" Row="5" Value="0" index="25" />
+      <Line Col="1" Row="5" Value="0" index="26" />
+      <Line Col="2" Row="5" Value="0" index="27" />
+      <Line Col="3" Row="5" Value="0" index="28" />
+      <Line Col="4" Row="5" Value="0" index="29" />
+      <Line Col="0" Row="6" Value="0" index="30" />
+      <Line Col="1" Row="6" Value="0" index="31" />
+      <Line Col="2" Row="6" Value="0" index="32" />
+      <Line Col="3" Row="6" Value="0" index="33" />
+      <Line Col="4" Row="6" Value="0" index="34" />
+      <Line Col="0" Row="7" Value="0" index="35" />
+      <Line Col="1" Row="7" Value="0" index="36" />
+      <Line Col="2" Row="7" Value="0" index="37" />
+      <Line Col="3" Row="7" Value="0" index="38" />
+      <Line Col="4" Row="7" Value="0" index="39" />
+      <Line Col="0" Row="8" Value="0" index="40" />
+      <Line Col="1" Row="8" Value="0" index="41" />
+      <Line Col="2" Row="8" Value="0" index="42" />
+      <Line Col="3" Row="8" Value="0" index="43" />
+      <Line Col="4" Row="8" Value="0" index="44" />
+      <Line Col="0" Row="9" Value="0" index="45" />
+      <Line Col="1" Row="9" Value="0" index="46" />
+      <Line Col="2" Row="9" Value="0" index="47" />
+      <Line Col="3" Row="9" Value="0" index="48" />
+      <Line Col="4" Row="9" Value="0" index="49" />
     </LineArray>
-    <ColorWheelSetupColumnArray >
-      <ColorWheelSetup index="0" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="1" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="2" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="3" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="4" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
+    <ColorWheelSetupColumnArray>
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="0" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="1" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="2" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="3" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="4" />
     </ColorWheelSetupColumnArray>
-    <ColorWheelSetupRowArray >
-      <ColorWheelSetup index="0" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="1" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="2" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="3" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="4" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="5" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="6" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="7" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="8" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
-      <ColorWheelSetup index="9" StartRadian="0.000000" EndRadian="1.570796" Brightness="11" Clockwise="0" />
+    <ColorWheelSetupRowArray>
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="0" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="1" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="2" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="3" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="4" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="5" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="6" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="7" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="8" />
+      <ColorWheelSetup Brightness="11" Clockwise="0" EndRadian="1.570796" StartRadian="0.000000" index="9" />
     </ColorWheelSetupRowArray>
     <HighlightColor value="65535" />
     <HighlightSymbol value="0" />
   </OverlaySetup>
-  <TS_PlotSetup >
-    <Variable value="0" high="1" low="0" initialValue="0" />
+  <TS_PlotSetup>
+    <Variable high="1" initialValue="0" low="0" value="0" />
     <Start value="0.000000" />
     <Interval value="1.000000" />
     <SigDigits value="2" />
     <PointsPerLine value="40" />
     <LabelPositionPct value="5.000000" />
     <LabelSize value="8" />
-    <LineType value="0" high="2" low="0" initialValue="0" />
+    <LineType high="2" initialValue="0" low="0" value="0" />
     <Color value="8388608" />
-    <Axis index="0" >
+    <Axis index="0">
       <IncludeAxis value="1" />
       <CalcID value="81" />
-      <Calc UnitID="6" Ordinal="0" >
+      <Calc Ordinal="0" UnitID="6">
         <FullName value="Temperature [ITS-90, deg C]" />
       </Calc>
       <Derived value="0" />
@@ -428,9 +427,9 @@
       <ConvertSystemTimeToLocalTime value="0" />
       <AutoLabel value="1" />
       <CustomLabel value="" />
-      <LineType value="0" high="11" low="0" initialValue="0" />
+      <LineType high="11" initialValue="0" low="0" value="0" />
       <LineColor value="32768" />
-      <LineSymbol value="3" high="13" low="0" initialValue="3" />
+      <LineSymbol high="13" initialValue="3" low="0" value="3" />
       <LinearScale value="1" />
       <AutoRange value="1" />
       <FixedMinimum value="0.000000" />
@@ -441,10 +440,10 @@
       <ReverseScale value="0" />
       <DupCnt value="0" />
     </Axis>
-    <Axis index="1" >
+    <Axis index="1">
       <IncludeAxis value="1" />
       <CalcID value="70" />
-      <Calc UnitID="49" Ordinal="0" >
+      <Calc Ordinal="0" UnitID="49">
         <FullName value="Salinity, Practical [PSU]" />
       </Calc>
       <Derived value="0" />
@@ -452,9 +451,9 @@
       <ConvertSystemTimeToLocalTime value="0" />
       <AutoLabel value="1" />
       <CustomLabel value="" />
-      <LineType value="0" high="11" low="0" initialValue="0" />
+      <LineType high="11" initialValue="0" low="0" value="0" />
       <LineColor value="32768" />
-      <LineSymbol value="3" high="13" low="0" initialValue="3" />
+      <LineSymbol high="13" initialValue="3" low="0" value="3" />
       <LinearScale value="1" />
       <AutoRange value="1" />
       <FixedMinimum value="0.000000" />
