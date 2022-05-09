@@ -27,17 +27,18 @@
       <Parity value="78" />
     </InstrumentPortConfiguration>
     <HeaderForm HeaderChoice="1">
-      <Prompt index="0" value="Station: BY10" />
-      <Prompt index="1" value="Operator: MHan" />
+      <Prompt index="0" value="Station: BY13" />
+      <Prompt index="1" value="Operator: AKTh" />
       <Prompt index="2" value="Ship: 77SE Svea" />
-      <Prompt index="3" value="Cruise: 77SE-2022-02" />
+      <Prompt index="3" value="Cruise: 77SE-2022-01" />
       <Prompt index="4" value="Latitud [GG MM.mm N]: " />
       <Prompt index="5" value="Longitude [GG MM.mm E]: " />
       <Prompt index="6" value="Pumps: PrimaryPump: 3588 # SecondaryPump: 3815" />
       <Prompt index="7" value="EventIDs: EventID:  # ParentEventID: " />
       <Prompt index="8" value="Additional Sampling: " />
-      <Prompt index="9" value="Metadata admin: MPROG: NATL # PROJ: BAS # ORDERER: HAV, SMHI # SLABO: SMHI # ALABO: SMHI # REFSK: HC-B-B8, HC-C-C2, OM7" />
-      <Prompt index="10" value="Metadata conditions: WADEP: 200 # WINDIR: 02 # WINSP: 11 # AIRTEMP: 10 # AIRPRES: 930 # WEATH: 1 # CLOUD: 0 # WAVES: 3 # ICEOB: 0 # COMNT_VISIT: " />
+      <Prompt index="9" value="Metadata admin: MPROG: NATL # PROJ: IBT # ORDERER: SLU, HAV, SMHI # SLABO: SMHI # ALABO: SMHI # REFSK: HC-B-B8, HC-C-C2, OM7" />
+      <Prompt index="10" value="Metadata conditions: WADEP: 150 # WINDIR: 02 # WINSP: 20.4 # AIRTEMP: 2 # AIRPRES: 1003 # WEATH: 2 # CLOUD: 2 # WAVES: 3 # ICEOB: 0 # COMNT_VISIT: " />
+      <Prompt index="11" value="LIMS Job: 20227710-0001" />
     </HeaderForm>
     <ArchivedDataPlaybackSettings>
       <PlaybackFilePath value="L:\2021\sv21d0938_test.hex" />
@@ -78,7 +79,7 @@
       </PotentialTempAnomaly>
     </MiscellaneousCalcData>
     <ConfigurationFilePath value="C:\mw\git\ctd_config\SBE\XMLCON\SBE09\SBE09_1387_20211114_0000.xmlcon" />
-    <DataFilePath value="C:\mw\temp_ctd_pre_system_data_root\source\SBE09_1387_20220322_0759_77SE_02_0001.hex" />
+    <DataFilePath value="C:\mw\temmp\temp_ctd_pre_system_data_root\source\2022\SBE09_1387_20220502_1301_77SE_01_0001.hex" />
     <WaterSamplerConfiguration Type="5" Port="1" NumberOfWaterBottles="24" FiringSequence="1" EnableRemoteFiring="0" BeepUsesInternalSpeakers="1" GO1016ArmOffset="0">
       <PositionsForTableDrivenFiring>
         <TableEntry BottleNumber="0" Position="1" />
@@ -225,8 +226,8 @@
               <AxisColor value="0" />
               <ScaleType value="0" />
               <MinimumValue value="0.000000" />
-              <MaximumValue value="160" />
-              <MajorDivisions value="16" />
+              <MaximumValue value="130" />
+              <MajorDivisions value="13" />
               <MinorDivisions value="2" />
               <ReverseScaleDirection value="1" />
               <DecimalDigits value="0" />
