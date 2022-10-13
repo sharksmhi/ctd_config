@@ -1,13 +1,13 @@
 <Derive>
   <Version value="7.26.7.129" />
   <ServerName value="Derive" />
-  <InstrumentPath value="C:\ctd\temp\SV22D0595.XMLCON" />
+  <InstrumentPath value="C:\svea_ctd\data_server_data\2022\SBE09_1387_20220917_1834_77SE_16_0844.XMLCON" />
   <InstrumentMatch value="1" />
-  <InputDir value="C:\ctd\temp" />
+  <InputDir value="C:\svea_ctd\data_local\temp" />
   <InputFileArray size="1" GrowBy="-1">
-    <ArrayItem index="0" value="sv22d0595.cnv" />
+    <ArrayItem index="0" value="SBE09_1387_20220917_1834_77SE_16_0844_Raw.cnv" />
   </InputFileArray>
-  <OutputDir value="C:\ctd\temp" />
+  <OutputDir value="C:\svea_ctd\data_local\temp" />
   <NameAppend value="" />
   <OutputFile value="" />
   <LastProcessed value="0" />
@@ -43,13 +43,13 @@
       </Calc>
     </CalcArrayItem>
     <CalcArrayItem index="6" CalcID="15">
-      <Calc UnitID="54" Ordinal="0">
-        <FullName value="Density [sigma-t, kg/m^3 ]" />
+      <Calc UnitID="53" Ordinal="0">
+        <FullName value="Density [sigma-theta, kg/m^3]" />
       </Calc>
     </CalcArrayItem>
     <CalcArrayItem index="7" CalcID="15">
-      <Calc UnitID="54" Ordinal="1">
-        <FullName value="Density, 2 [sigma-t, kg/m^3 ]" />
+      <Calc UnitID="53" Ordinal="1">
+        <FullName value="Density, 2 [sigma-theta, kg/m^3]" />
       </Calc>
     </CalcArrayItem>
     <CalcArrayItem index="8" CalcID="17">
