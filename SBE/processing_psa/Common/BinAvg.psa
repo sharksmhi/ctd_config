@@ -12,7 +12,7 @@
   <LastProcessed value="0" />
   <BinType value="0" />
   <BinSize value="0.500000" />
-  <IncludeNumberScans value="0" />
+  <IncludeNumberScans value="1" />
   <ExcludeMarkedBad value="1" />
   <ScansToSkip value="0" />
   <ScansToOmit value="0" />
