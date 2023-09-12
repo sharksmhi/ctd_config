@@ -1,6 +1,7 @@
-<SeasaveProgramSetup>
+<?xml version="1.0" encoding="UTF-8"?>
+<SeasaveProgramSetup >
   <SoftwareVersion value="7.26.7.121" />
-  <Settings>
+  <Settings >
     <StatusWindowIsVisible value="1" />
     <MaximizedPlotMayCoverSeasave value="0" />
     <CheckScanLength value="0" />
@@ -19,28 +20,28 @@
     <RemoteBottleFireStatusPort value="49168" />
     <RemoteRawDataPort value="49160" />
     <RemoteProcessedDataPort value="49161" />
-    <InstrumentPortConfiguration>
+    <InstrumentPortConfiguration >
       <BaudRate value="19200" />
       <Port value="0" />
       <DataBits value="8" />
       <StopBits value="1" />
       <Parity value="78" />
     </InstrumentPortConfiguration>
-    <HeaderForm HeaderChoice="1">
-      <Prompt index="0" value="Station: BY13" />
-      <Prompt index="1" value="Operator: AKTh" />
+    <HeaderForm HeaderChoice="1" >
+      <Prompt index="0" value="Station: 9W M&#xE5;sesk&#xE4;r" />
+      <Prompt index="1" value="Operator: JKro" />
       <Prompt index="2" value="Ship: 77SE Svea" />
-      <Prompt index="3" value="Cruise: 77SE-2022-01" />
-      <Prompt index="4" value="Latitud [GG MM.mm N]: " />
+      <Prompt index="3" value="Cruise: 77SE-2023-14" />
+      <Prompt index="4" value="Latitude [GG MM.mm N]: " />
       <Prompt index="5" value="Longitude [GG MM.mm E]: " />
-      <Prompt index="6" value="Pumps: PrimaryPump: 3588 # SecondaryPump: 3815" />
+      <Prompt index="6" value="Pumps: PrimaryPump: 6060 # SecondaryPump: 6061" />
       <Prompt index="7" value="EventIDs: EventID:  # ParentEventID: " />
       <Prompt index="8" value="Additional Sampling: " />
-      <Prompt index="9" value="Metadata admin: MPROG: NATL # PROJ: IBT # ORDERER: SLU, HAV, SMHI # SLABO: SMHI # ALABO: SMHI # REFSK: HC-B-B8, HC-C-C2, OM7" />
-      <Prompt index="10" value="Metadata conditions: WADEP: 150 # WINDIR: 02 # WINSP: 20.4 # AIRTEMP: 2 # AIRPRES: 1003 # WEATH: 2 # CLOUD: 2 # WAVES: 3 # ICEOB: 0 # COMNT_VISIT: " />
-      <Prompt index="11" value="LIMS Job: 20227710-0001" />
+      <Prompt index="9" value="Metadata admin: MPROG: NATL # PROJ: IBT # ORDERER: SLUA # SLABO: SMHI # ALABO: SMHI # REFSK: HC-B-B8, HC-C-C2, OM7" />
+      <Prompt index="10" value="Metadata conditions: WADEP: 137 # WINSP: 5 # WINDIR: 34 # AIRPRES: 1010 # AIRTEMP: 16.2 # WEATH: 1 # CLOUD: 2 # WAVES: 2 # ICEOB: 0 # COMNT_VISIT: " />
+      <Prompt index="11" value="LIMS Job: 20237710-0670" />
     </HeaderForm>
-    <ArchivedDataPlaybackSettings>
+    <ArchivedDataPlaybackSettings >
       <PlaybackFilePath value="L:\2021\sv21d0938_test.hex" />
       <EnableSelectedOutputs value="0" />
       <NumberOfScansToSkipOverAtStart value="0" />
@@ -49,39 +50,39 @@
       <ReadToEndOfFile value="1" />
       <NumberOfScansToRead value="0" />
     </ArchivedDataPlaybackSettings>
-    <MiscellaneousCalcData>
+    <MiscellaneousCalcData >
       <Latitude value="0.000000" />
       <Longitude value="0.000000" />
-      <DescentRateAndAcceleration>
+      <DescentRateAndAcceleration >
         <WindowSize value="2.000000" />
       </DescentRateAndAcceleration>
-      <Oxygen>
+      <Oxygen >
         <WindowSize value="2.000000" />
         <ApplyHysteresisCorrection value="1" />
         <ApplyTauCorrection value="1" />
       </Oxygen>
-      <AverageSoundVelocity>
+      <AverageSoundVelocity >
         <MinimumPressure value="20.000000" />
         <MinimumSalinity value="20.000000" />
         <PressureWindowSize value="20.000000" />
         <TimeWindowSize value="60.000000" />
       </AverageSoundVelocity>
-      <PlumeAnomaly>
+      <PlumeAnomaly >
         <ThetaB value="0.000000" />
         <SalinityB value="0.000000" />
         <ThetaZSalinityZRatio value="0.000000" />
         <ReferencePressure value="0.000000" />
       </PlumeAnomaly>
-      <PotentialTempAnomaly>
+      <PotentialTempAnomaly >
         <A0 value="0.000000" />
         <A1 value="0.000000" />
         <A1Multiplier value="0" />
       </PotentialTempAnomaly>
     </MiscellaneousCalcData>
-    <ConfigurationFilePath value="C:\mw\git\ctd_config\SBE\XMLCON\SBE09\SBE09_1387_20211114_0000.xmlcon" />
-    <DataFilePath value="C:\mw\temmp\temp_ctd_pre_system_data_root\source\2022\SBE09_1387_20220502_1301_77SE_01_0001.hex" />
-    <WaterSamplerConfiguration Type="5" Port="1" NumberOfWaterBottles="24" FiringSequence="1" EnableRemoteFiring="0" BeepUsesInternalSpeakers="1" GO1016ArmOffset="0">
-      <PositionsForTableDrivenFiring>
+    <ConfigurationFilePath value="C:\svea_ctd\ctd_config\SBE\XMLCON\SBE09\SBE09_1044_20230912_0000.xmlcon" />
+    <DataFilePath value="L:\2023\SBE09_1044_20230901_1052_77SE_14_0670.hex" />
+    <WaterSamplerConfiguration Type="5" Port="1" NumberOfWaterBottles="24" FiringSequence="1" EnableRemoteFiring="0" BeepUsesInternalSpeakers="1" GO1016ArmOffset="0" >
+      <PositionsForTableDrivenFiring >
         <TableEntry BottleNumber="0" Position="1" />
         <TableEntry BottleNumber="1" Position="2" />
         <TableEntry BottleNumber="2" Position="3" />
@@ -119,8 +120,8 @@
         <TableEntry BottleNumber="34" Position="1" />
         <TableEntry BottleNumber="35" Position="1" />
       </PositionsForTableDrivenFiring>
-      <AutoFireData UsePressure="1" DepthType="0" MaxPressureOrDepth="1000.000000" MinPressureDepth="0.000000" AllowManualFiring="0">
-        <DataTable>
+      <AutoFireData UsePressure="1" DepthType="0" MaxPressureOrDepth="1000.000000" MinPressureDepth="0.000000" AllowManualFiring="0" >
+        <DataTable >
           <Row index="0" BottleNumber="1" FireAt="900.000000" />
           <Row index="1" BottleNumber="5" FireAt="800.000000" />
           <Row index="2" BottleNumber="18" FireAt="700.000000" />
@@ -163,13 +164,13 @@
     <NMEAConfiguration AppendToEveryScan="1" AddToNavFileWhenCtrlF7IsPressed="1" />
     <TimeoutParameters SecondsAtStartup="10" SecondsBetweenScans="10" />
     <SeasaveAcqCommunications DataPort="49163" StatusPort="49165" CommandPort="49164" />
-    <MainWindowPosition left="-4" top="2" right="1905" bottom="1031" />
-    <SetupFilePath value="C:\CTD_utv\GIT\ctd_config\SBE\seasave_psa\svea\Seasave_SBE09_1387_20211117.psa" />
+    <MainWindowPosition left="-8" top="-8" right="1928" bottom="1048" />
+    <SetupFilePath value="C:\svea_ctd\ctd_config\SBE\seasave_psa\svea\Seasave.psa" />
   </Settings>
-  <Clients>
-    <DisplaySettings Size="4">
-      <Display index="0" Type="4">
-        <XYPlotData>
+  <Clients >
+    <DisplaySettings Size="4" >
+      <Display index="0" Type="4" >
+        <XYPlotData >
           <PlotType value="0" />
           <NumberOfAxes value="5" />
           <Title value="" />
@@ -206,18 +207,18 @@
           <ResolutionForRedraw value="0.000833" />
           <ShowToolBar value="1" />
           <AutoPagePercent value="100" />
-          <WindowPlacement>
+          <WindowPlacement >
             <length value="44" />
             <flags value="0" />
             <showCmd value="1" />
             <ptMinPosition x="-1" y="-1" />
             <ptMaxPosition x="-1" y="-1" />
-            <rcNormalPosition left="4" top="92" right="696" bottom="963" />
+            <rcNormalPosition left="0" top="82" right="692" bottom="953" />
           </WindowPlacement>
-          <Axes>
-            <Axis index="0">
+          <Axes >
+            <Axis index="0" >
               <CalcID value="65" />
-              <Calc UnitID="3" Ordinal="0">
+              <Calc UnitID="3" Ordinal="0" >
                 <FullName value="Pressure, Digiquartz [db]" />
               </Calc>
               <LabelAxisWithVariable value="1" />
@@ -226,8 +227,8 @@
               <AxisColor value="0" />
               <ScaleType value="0" />
               <MinimumValue value="0.000000" />
-              <MaximumValue value="130" />
-              <MajorDivisions value="13" />
+              <MaximumValue value="140.000000" />
+              <MajorDivisions value="14" />
               <MinorDivisions value="2" />
               <ReverseScaleDirection value="1" />
               <DecimalDigits value="0" />
@@ -235,9 +236,9 @@
               <UpcastLineColor value="0" />
               <DowncastLineColor value="0" />
             </Axis>
-            <Axis index="1">
+            <Axis index="1" >
               <CalcID value="81" />
-              <Calc UnitID="6" Ordinal="0">
+              <Calc UnitID="6" Ordinal="0" >
                 <FullName value="Temperature [ITS-90, deg C]" />
               </Calc>
               <LabelAxisWithVariable value="0" />
@@ -255,9 +256,9 @@
               <UpcastLineColor value="16744448" />
               <DowncastLineColor value="16711680" />
             </Axis>
-            <Axis index="2">
+            <Axis index="2" >
               <CalcID value="70" />
-              <Calc UnitID="49" Ordinal="0">
+              <Calc UnitID="49" Ordinal="0" >
                 <FullName value="Salinity, Practical [PSU]" />
               </Calc>
               <LabelAxisWithVariable value="1" />
@@ -268,16 +269,16 @@
               <MinimumValue value="0.000000" />
               <MaximumValue value="40.000000" />
               <MajorDivisions value="10" />
-              <MinorDivisions value="2" />
+              <MinorDivisions value="4" />
               <ReverseScaleDirection value="0" />
               <DecimalDigits value="0" />
               <AutoPageThisAxis value="0" />
               <UpcastLineColor value="8421631" />
               <DowncastLineColor value="255" />
             </Axis>
-            <Axis index="3">
+            <Axis index="3" >
               <CalcID value="93" />
-              <Calc UnitID="38" Ordinal="0">
+              <Calc UnitID="38" Ordinal="0" >
                 <FullName value="Fluorescence, WET Labs ECO-AFL/FL [mg/m^3]" />
               </Calc>
               <LabelAxisWithVariable value="1" />
@@ -295,9 +296,9 @@
               <UpcastLineColor value="8454016" />
               <DowncastLineColor value="4227072" />
             </Axis>
-            <Axis index="4">
+            <Axis index="4" >
               <CalcID value="55" />
-              <Calc UnitID="40" Ordinal="0">
+              <Calc UnitID="40" Ordinal="0" >
                 <FullName value="Oxygen, SBE 43 [ml/l]" />
                 <WindowSize value="2.000000" />
                 <ApplyHysteresisCorrection value="1" />
@@ -319,10 +320,10 @@
               <DowncastLineColor value="8421504" />
             </Axis>
           </Axes>
-          <WindowRectangle left="4" top="92" right="696" bottom="963" />
-          <GraphicsOutputOptions>
+          <WindowRectangle left="0" top="82" right="692" bottom="953" />
+          <GraphicsOutputOptions >
             <PrintSizeFrom value="0" />
-            <PrintOptionsView>
+            <PrintOptionsView >
               <Orientation value="0" />
               <PrintFullPage value="1" />
               <PrintBlackAndWhite value="0" />
@@ -330,40 +331,40 @@
               <OutputWidth value="160.000000" />
               <OutputHeight value="120.000000" />
             </PrintOptionsView>
-            <FileOptionsView>
+            <FileOptionsView >
               <DataFormat value="0" />
               <MetafileSizeFrom value="0" />
               <JpegSizeFrom value="0" />
               <BitmapSizeFrom value="0" />
-              <MetafileView>
+              <MetafileView >
                 <OutputUnits value="0" />
                 <OutputWidth value="160.000000" />
                 <OutputHeight value="120.000000" />
               </MetafileView>
-              <JpegView>
+              <JpegView >
                 <OutputWidth value="512" />
                 <OutputHeight value="384" />
               </JpegView>
-              <BitmapView>
+              <BitmapView >
                 <OutputWidth value="512" />
                 <OutputHeight value="384" />
               </BitmapView>
             </FileOptionsView>
-            <ClipOptionsView>
+            <ClipOptionsView >
               <DataFormat value="0" />
               <MetafileSizeFrom value="0" />
               <JpegSizeFrom value="0" />
               <BitmapSizeFrom value="0" />
-              <MetafileView>
+              <MetafileView >
                 <OutputUnits value="0" />
                 <OutputWidth value="160.000000" />
                 <OutputHeight value="120.000000" />
               </MetafileView>
-              <JpegView>
+              <JpegView >
                 <OutputWidth value="512" />
                 <OutputHeight value="384" />
               </JpegView>
-              <BitmapView>
+              <BitmapView >
                 <OutputWidth value="512" />
                 <OutputHeight value="384" />
               </BitmapView>
@@ -372,7 +373,7 @@
             <SaveToFileDefault value="1" />
             <DisplaySelectClipboardFormatDialog value="0" />
           </GraphicsOutputOptions>
-          <TS_PlotSetup>
+          <TS_PlotSetup >
             <ContourVariable value="0" />
             <Start value="0.000000" />
             <Interval value="1.000000" />
@@ -385,30 +386,30 @@
           </TS_PlotSetup>
         </XYPlotData>
       </Display>
-      <Display index="1" Type="1">
-        <FixedViewData>
-          <SelCalcData Size="24">
-            <SelCalcRow index="0">
+      <Display index="1" Type="1" >
+        <FixedViewData >
+          <SelCalcData Size="24" >
+            <SelCalcRow index="0" >
               <CalcID value="69" />
-              <Calc UnitID="-1" Ordinal="0">
+              <Calc UnitID="-1" Ordinal="0" >
                 <FullName value="Pump Status" />
               </Calc>
               <DecimalDigits value="0" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="1">
+            <SelCalcRow index="1" >
               <CalcID value="1" />
-              <Calc UnitID="29" Ordinal="0">
+              <Calc UnitID="29" Ordinal="0" >
                 <FullName value="Altimeter [m]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="2">
+            <SelCalcRow index="2" >
               <CalcID value="18" />
-              <Calc UnitID="32" Ordinal="0">
+              <Calc UnitID="32" Ordinal="0" >
                 <FullName value="Descent Rate [m/s]" />
                 <WindowSize value="2.000000" />
               </Calc>
@@ -416,18 +417,18 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="3">
+            <SelCalcRow index="3" >
               <CalcID value="65" />
-              <Calc UnitID="3" Ordinal="0">
+              <Calc UnitID="3" Ordinal="0" >
                 <FullName value="Pressure, Digiquartz [db]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="4">
+            <SelCalcRow index="4" >
               <CalcID value="17" />
-              <Calc UnitID="31" Ordinal="0">
+              <Calc UnitID="31" Ordinal="0" >
                 <FullName value="Depth [salt water, m]" />
                 <Latitude value="0.000000" />
               </Calc>
@@ -435,45 +436,45 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="5">
+            <SelCalcRow index="5" >
               <CalcID value="70" />
-              <Calc UnitID="49" Ordinal="0">
+              <Calc UnitID="49" Ordinal="0" >
                 <FullName value="Salinity, Practical [PSU]" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="6">
+            <SelCalcRow index="6" >
               <CalcID value="70" />
-              <Calc UnitID="49" Ordinal="1">
+              <Calc UnitID="49" Ordinal="1" >
                 <FullName value="Salinity, Practical, 2 [PSU]" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="7">
+            <SelCalcRow index="7" >
               <CalcID value="81" />
-              <Calc UnitID="6" Ordinal="0">
+              <Calc UnitID="6" Ordinal="0" >
                 <FullName value="Temperature [ITS-90, deg C]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="8">
+            <SelCalcRow index="8" >
               <CalcID value="81" />
-              <Calc UnitID="6" Ordinal="1">
+              <Calc UnitID="6" Ordinal="1" >
                 <FullName value="Temperature, 2 [ITS-90, deg C]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="9">
+            <SelCalcRow index="9" >
               <CalcID value="55" />
-              <Calc UnitID="40" Ordinal="0">
+              <Calc UnitID="40" Ordinal="0" >
                 <FullName value="Oxygen, SBE 43 [ml/l]" />
                 <WindowSize value="2.000000" />
                 <ApplyHysteresisCorrection value="1" />
@@ -483,9 +484,9 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="10">
+            <SelCalcRow index="10" >
               <CalcID value="55" />
-              <Calc UnitID="40" Ordinal="1">
+              <Calc UnitID="40" Ordinal="1" >
                 <FullName value="Oxygen, SBE 43, 2 [ml/l]" />
                 <WindowSize value="2.000000" />
                 <ApplyHysteresisCorrection value="1" />
@@ -495,63 +496,63 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="11">
+            <SelCalcRow index="11" >
               <CalcID value="93" />
-              <Calc UnitID="38" Ordinal="0">
+              <Calc UnitID="38" Ordinal="0" >
                 <FullName value="Fluorescence, WET Labs ECO-AFL/FL [mg/m^3]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="12">
+            <SelCalcRow index="12" >
               <CalcID value="150" />
-              <Calc UnitID="45" Ordinal="0">
+              <Calc UnitID="45" Ordinal="0" >
                 <FullName value="Turbidity, WET Labs ECO [NTU]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="13">
+            <SelCalcRow index="13" >
               <CalcID value="93" />
-              <Calc UnitID="38" Ordinal="1">
+              <Calc UnitID="38" Ordinal="1" >
                 <FullName value="Fluorescence, WET Labs ECO-AFL/FL, 2 [mg/m^3]" />
               </Calc>
               <DecimalDigits value="5" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="14">
+            <SelCalcRow index="14" >
               <CalcID value="39" />
-              <Calc UnitID="4" Ordinal="0">
+              <Calc UnitID="4" Ordinal="0" >
                 <FullName value="Latitude [deg]" />
               </Calc>
               <DecimalDigits value="5" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="15">
+            <SelCalcRow index="15" >
               <CalcID value="40" />
-              <Calc UnitID="4" Ordinal="0">
+              <Calc UnitID="4" Ordinal="0" >
                 <FullName value="Longitude [deg]" />
               </Calc>
               <DecimalDigits value="5" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="16">
+            <SelCalcRow index="16" >
               <CalcID value="15" />
-              <Calc UnitID="11" Ordinal="0">
+              <Calc UnitID="11" Ordinal="0" >
                 <FullName value="Density [density, kg/m^3]" />
               </Calc>
               <DecimalDigits value="4" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="17">
+            <SelCalcRow index="17" >
               <CalcID value="59" />
-              <Calc UnitID="-1" Ordinal="0">
+              <Calc UnitID="-1" Ordinal="0" >
                 <FullName value="PAR/Irradiance, Biospherical/Licor" />
                 <PAR_Units value="0" />
               </Calc>
@@ -559,68 +560,68 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="18">
+            <SelCalcRow index="18" >
               <CalcID value="125" />
-              <Calc UnitID="52" Ordinal="0">
+              <Calc UnitID="52" Ordinal="0" >
                 <FullName value="Time, NMEA [seconds]" />
               </Calc>
               <DecimalDigits value="0" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="19">
+            <SelCalcRow index="19" >
               <CalcID value="36" />
-              <Calc UnitID="23" Ordinal="0">
+              <Calc UnitID="23" Ordinal="0" >
                 <FullName value="Frequency 0" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="20">
+            <SelCalcRow index="20" >
               <CalcID value="36" />
-              <Calc UnitID="23" Ordinal="1">
+              <Calc UnitID="23" Ordinal="1" >
                 <FullName value="Frequency 1" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="21">
+            <SelCalcRow index="21" >
               <CalcID value="36" />
-              <Calc UnitID="23" Ordinal="2">
+              <Calc UnitID="23" Ordinal="2" >
                 <FullName value="Frequency 2" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="22">
+            <SelCalcRow index="22" >
               <CalcID value="36" />
-              <Calc UnitID="23" Ordinal="3">
+              <Calc UnitID="23" Ordinal="3" >
                 <FullName value="Frequency 3" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="23">
+            <SelCalcRow index="23" >
               <CalcID value="36" />
-              <Calc UnitID="23" Ordinal="4">
+              <Calc UnitID="23" Ordinal="4" >
                 <FullName value="Frequency 4" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <Position left="702" top="91" right="1265" bottom="890" />
-            <WindowPlacement>
+            <Position left="698" top="81" right="1261" bottom="880" />
+            <WindowPlacement >
               <length value="44" />
               <flags value="0" />
               <showCmd value="1" />
               <ptMinPosition x="-1" y="-1" />
               <ptMaxPosition x="-1" y="-1" />
-              <rcNormalPosition left="702" top="91" right="1265" bottom="890" />
+              <rcNormalPosition left="698" top="81" right="1261" bottom="880" />
             </WindowPlacement>
             <SecBetweenUpdate value="1.000000" />
             <PixelX value="6" />
@@ -630,7 +631,7 @@
           <TwoColumns value="0" />
           <UseShortNames value="0" />
           <FontSize value="2" />
-          <Sizing>
+          <Sizing >
             <RowHeight>31</RowHeight>
             <TopHeaderHeight>15</TopHeaderHeight>
             <SideHeaderWidth>15</SideHeaderWidth>
@@ -639,8 +640,8 @@
           </Sizing>
         </FixedViewData>
       </Display>
-      <Display index="2" Type="4">
-        <XYPlotData>
+      <Display index="2" Type="4" >
+        <XYPlotData >
           <PlotType value="0" />
           <NumberOfAxes value="5" />
           <Title value="" />
@@ -677,18 +678,18 @@
           <ResolutionForRedraw value="0.000833" />
           <ShowToolBar value="1" />
           <AutoPagePercent value="100" />
-          <WindowPlacement>
+          <WindowPlacement >
             <length value="44" />
             <flags value="0" />
             <showCmd value="1" />
             <ptMinPosition x="-1" y="-1" />
             <ptMaxPosition x="-1" y="-1" />
-            <rcNormalPosition left="1268" top="271" right="1774" bottom="945" />
+            <rcNormalPosition left="1264" top="261" right="1794" bottom="981" />
           </WindowPlacement>
-          <Axes>
-            <Axis index="0">
+          <Axes >
+            <Axis index="0" >
               <CalcID value="17" />
-              <Calc UnitID="31" Ordinal="0">
+              <Calc UnitID="31" Ordinal="0" >
                 <FullName value="Depth [salt water, m]" />
                 <Latitude value="0.000000" />
               </Calc>
@@ -698,8 +699,8 @@
               <AxisColor value="0" />
               <ScaleType value="0" />
               <MinimumValue value="0.000000" />
-              <MaximumValue value="70.000000" />
-              <MajorDivisions value="7" />
+              <MaximumValue value="140.000000" />
+              <MajorDivisions value="14" />
               <MinorDivisions value="2" />
               <ReverseScaleDirection value="1" />
               <DecimalDigits value="0" />
@@ -707,9 +708,9 @@
               <UpcastLineColor value="0" />
               <DowncastLineColor value="0" />
             </Axis>
-            <Axis index="1">
+            <Axis index="1" >
               <CalcID value="70" />
-              <Calc UnitID="49" Ordinal="0">
+              <Calc UnitID="49" Ordinal="0" >
                 <FullName value="Salinity, Practical [PSU]" />
               </Calc>
               <LabelAxisWithVariable value="1" />
@@ -727,9 +728,9 @@
               <UpcastLineColor value="16732497" />
               <DowncastLineColor value="10485760" />
             </Axis>
-            <Axis index="2">
+            <Axis index="2" >
               <CalcID value="70" />
-              <Calc UnitID="49" Ordinal="1">
+              <Calc UnitID="49" Ordinal="1" >
                 <FullName value="Salinity, Practical, 2 [PSU]" />
               </Calc>
               <LabelAxisWithVariable value="1" />
@@ -747,9 +748,9 @@
               <UpcastLineColor value="8421631" />
               <DowncastLineColor value="255" />
             </Axis>
-            <Axis index="3">
+            <Axis index="3" >
               <CalcID value="55" />
-              <Calc UnitID="40" Ordinal="0">
+              <Calc UnitID="40" Ordinal="0" >
                 <FullName value="Oxygen, SBE 43 [ml/l]" />
                 <WindowSize value="2.000000" />
                 <ApplyHysteresisCorrection value="1" />
@@ -770,9 +771,9 @@
               <UpcastLineColor value="12632256" />
               <DowncastLineColor value="8421504" />
             </Axis>
-            <Axis index="4">
+            <Axis index="4" >
               <CalcID value="55" />
-              <Calc UnitID="40" Ordinal="1">
+              <Calc UnitID="40" Ordinal="1" >
                 <FullName value="Oxygen, SBE 43, 2 [ml/l]" />
                 <WindowSize value="2.000000" />
                 <ApplyHysteresisCorrection value="1" />
@@ -794,10 +795,10 @@
               <DowncastLineColor value="33023" />
             </Axis>
           </Axes>
-          <WindowRectangle left="1268" top="271" right="1774" bottom="945" />
-          <GraphicsOutputOptions>
+          <WindowRectangle left="1264" top="261" right="1794" bottom="981" />
+          <GraphicsOutputOptions >
             <PrintSizeFrom value="0" />
-            <PrintOptionsView>
+            <PrintOptionsView >
               <Orientation value="0" />
               <PrintFullPage value="1" />
               <PrintBlackAndWhite value="0" />
@@ -805,40 +806,40 @@
               <OutputWidth value="254.000000" />
               <OutputHeight value="143.000000" />
             </PrintOptionsView>
-            <FileOptionsView>
+            <FileOptionsView >
               <DataFormat value="0" />
               <MetafileSizeFrom value="0" />
               <JpegSizeFrom value="0" />
               <BitmapSizeFrom value="0" />
-              <MetafileView>
+              <MetafileView >
                 <OutputUnits value="0" />
                 <OutputWidth value="254.000000" />
                 <OutputHeight value="143.000000" />
               </MetafileView>
-              <JpegView>
+              <JpegView >
                 <OutputWidth value="960" />
                 <OutputHeight value="540" />
               </JpegView>
-              <BitmapView>
+              <BitmapView >
                 <OutputWidth value="960" />
                 <OutputHeight value="540" />
               </BitmapView>
             </FileOptionsView>
-            <ClipOptionsView>
+            <ClipOptionsView >
               <DataFormat value="0" />
               <MetafileSizeFrom value="0" />
               <JpegSizeFrom value="0" />
               <BitmapSizeFrom value="0" />
-              <MetafileView>
+              <MetafileView >
                 <OutputUnits value="0" />
                 <OutputWidth value="254.000000" />
                 <OutputHeight value="143.000000" />
               </MetafileView>
-              <JpegView>
+              <JpegView >
                 <OutputWidth value="960" />
                 <OutputHeight value="540" />
               </JpegView>
-              <BitmapView>
+              <BitmapView >
                 <OutputWidth value="960" />
                 <OutputHeight value="540" />
               </BitmapView>
@@ -847,7 +848,7 @@
             <SaveToFileDefault value="1" />
             <DisplaySelectClipboardFormatDialog value="0" />
           </GraphicsOutputOptions>
-          <TS_PlotSetup>
+          <TS_PlotSetup >
             <ContourVariable value="0" />
             <Start value="0.000000" />
             <Interval value="1.000000" />
@@ -860,21 +861,21 @@
           </TS_PlotSetup>
         </XYPlotData>
       </Display>
-      <Display index="3" Type="1">
-        <FixedViewData>
-          <SelCalcData Size="3">
-            <SelCalcRow index="0">
+      <Display index="3" Type="1" >
+        <FixedViewData >
+          <SelCalcData Size="3" >
+            <SelCalcRow index="0" >
               <CalcID value="1" />
-              <Calc UnitID="29" Ordinal="0">
+              <Calc UnitID="29" Ordinal="0" >
                 <FullName value="Altimeter [m]" />
               </Calc>
               <DecimalDigits value="2" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="1">
+            <SelCalcRow index="1" >
               <CalcID value="18" />
-              <Calc UnitID="32" Ordinal="0">
+              <Calc UnitID="32" Ordinal="0" >
                 <FullName value="Descent Rate [m/s]" />
                 <WindowSize value="2.000000" />
               </Calc>
@@ -882,23 +883,23 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <SelCalcRow index="2">
+            <SelCalcRow index="2" >
               <CalcID value="65" />
-              <Calc UnitID="3" Ordinal="0">
+              <Calc UnitID="3" Ordinal="0" >
                 <FullName value="Pressure, Digiquartz [db]" />
               </Calc>
               <DecimalDigits value="3" />
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <Position left="1270" top="90" right="1657" bottom="248" />
-            <WindowPlacement>
+            <Position left="1266" top="80" right="1653" bottom="238" />
+            <WindowPlacement >
               <length value="44" />
               <flags value="0" />
               <showCmd value="1" />
               <ptMinPosition x="-1" y="-1" />
               <ptMaxPosition x="-1" y="-1" />
-              <rcNormalPosition left="1270" top="90" right="1657" bottom="264" />
+              <rcNormalPosition left="1266" top="80" right="1653" bottom="254" />
             </WindowPlacement>
             <SecBetweenUpdate value="1.000000" />
             <PixelX value="6" />
@@ -908,7 +909,7 @@
           <TwoColumns value="0" />
           <UseShortNames value="0" />
           <FontSize value="2" />
-          <Sizing>
+          <Sizing >
             <RowHeight>34</RowHeight>
             <TopHeaderHeight>16</TopHeaderHeight>
             <SideHeaderWidth>14</SideHeaderWidth>
@@ -918,9 +919,9 @@
         </FixedViewData>
       </Display>
     </DisplaySettings>
-    <AsciiOutSettings>
-      <SerialOutputData>
-        <SerialPortConfig>
+    <AsciiOutSettings >
+      <SerialOutputData >
+        <SerialPortConfig >
           <BaudRate value="19200" />
           <Port value="4" />
           <DataBits value="8" />
@@ -930,103 +931,103 @@
         <EnableSerialPortOutput value="0" />
         <FormatXML value="0" />
         <SecondsBetweenUpdates value="0.000000" />
-        <ArrayOfVariables Size="2">
-          <Variable index="0">
+        <ArrayOfVariables Size="2" >
+          <Variable index="0" >
             <CalcID value="72" />
-            <Calc UnitID="-1" Ordinal="0">
+            <Calc UnitID="-1" Ordinal="0" >
               <FullName value="Scan Count" />
             </Calc>
             <DecimalDigits value="0" />
           </Variable>
-          <Variable index="1">
+          <Variable index="1" >
             <CalcID value="12" />
-            <Calc UnitID="58" Ordinal="0">
+            <Calc UnitID="58" Ordinal="0" >
               <FullName value="Conductivity [S/m]" />
             </Calc>
             <DecimalDigits value="7" />
           </Variable>
         </ArrayOfVariables>
       </SerialOutputData>
-      <MarkVariablesOutputData>
-        <ArrayOfVariables Size="4">
-          <Variable index="0">
+      <MarkVariablesOutputData >
+        <ArrayOfVariables Size="4" >
+          <Variable index="0" >
             <CalcID value="72" />
-            <Calc UnitID="-1" Ordinal="0">
+            <Calc UnitID="-1" Ordinal="0" >
               <FullName value="Scan Count" />
             </Calc>
             <DecimalDigits value="0" />
           </Variable>
-          <Variable index="1">
+          <Variable index="1" >
             <CalcID value="17" />
-            <Calc UnitID="31" Ordinal="0">
+            <Calc UnitID="31" Ordinal="0" >
               <FullName value="Depth [salt water, m]" />
               <Latitude value="0.000000" />
             </Calc>
             <DecimalDigits value="4" />
           </Variable>
-          <Variable index="2">
+          <Variable index="2" >
             <CalcID value="12" />
-            <Calc UnitID="58" Ordinal="0">
+            <Calc UnitID="58" Ordinal="0" >
               <FullName value="Conductivity [S/m]" />
             </Calc>
             <DecimalDigits value="7" />
           </Variable>
-          <Variable index="3">
+          <Variable index="3" >
             <CalcID value="70" />
-            <Calc UnitID="49" Ordinal="0">
+            <Calc UnitID="49" Ordinal="0" >
               <FullName value="Salinity, Practical [PSU]" />
             </Calc>
             <DecimalDigits value="5" />
           </Variable>
         </ArrayOfVariables>
       </MarkVariablesOutputData>
-      <WindowsSocketOutputData>
+      <WindowsSocketOutputData >
         <OutputRawDataToSocket value="0" />
         <PublishSettingsForRawData value="0" />
         <SecondsBetweenRawDataUpdates value="0.000000" />
         <OutputConvertedDataToSocket value="0" />
         <FormatXML value="0" />
         <SecondsBetweenUpdates value="0.000000" />
-        <ArrayOfVariables Size="10">
-          <Variable index="0">
+        <ArrayOfVariables Size="10" >
+          <Variable index="0" >
             <CalcID value="72" />
-            <Calc UnitID="-1" Ordinal="0">
+            <Calc UnitID="-1" Ordinal="0" >
               <FullName value="Scan Count" />
             </Calc>
             <DecimalDigits value="0" />
           </Variable>
-          <Variable index="1">
+          <Variable index="1" >
             <CalcID value="12" />
-            <Calc UnitID="58" Ordinal="0">
+            <Calc UnitID="58" Ordinal="0" >
               <FullName value="Conductivity [S/m]" />
             </Calc>
             <DecimalDigits value="7" />
           </Variable>
-          <Variable index="2">
+          <Variable index="2" >
             <CalcID value="81" />
-            <Calc UnitID="6" Ordinal="0">
+            <Calc UnitID="6" Ordinal="0" >
               <FullName value="Temperature [ITS-90, deg C]" />
             </Calc>
             <DecimalDigits value="5" />
           </Variable>
-          <Variable index="3">
+          <Variable index="3" >
             <CalcID value="65" />
-            <Calc UnitID="3" Ordinal="0">
+            <Calc UnitID="3" Ordinal="0" >
               <FullName value="Pressure, Digiquartz [db]" />
             </Calc>
             <DecimalDigits value="4" />
           </Variable>
-          <Variable index="4">
+          <Variable index="4" >
             <CalcID value="17" />
-            <Calc UnitID="31" Ordinal="0">
+            <Calc UnitID="31" Ordinal="0" >
               <FullName value="Depth [salt water, m]" />
               <Latitude value="0.000000" />
             </Calc>
             <DecimalDigits value="4" />
           </Variable>
-          <Variable index="5">
+          <Variable index="5" >
             <CalcID value="55" />
-            <Calc UnitID="40" Ordinal="0">
+            <Calc UnitID="40" Ordinal="0" >
               <FullName value="Oxygen, SBE 43 [ml/l]" />
               <WindowSize value="2.000000" />
               <ApplyHysteresisCorrection value="1" />
@@ -1034,9 +1035,9 @@
             </Calc>
             <DecimalDigits value="6" />
           </Variable>
-          <Variable index="6">
+          <Variable index="6" >
             <CalcID value="55" />
-            <Calc UnitID="47" Ordinal="0">
+            <Calc UnitID="47" Ordinal="0" >
               <FullName value="Oxygen, SBE 43 [% saturation]" />
               <WindowSize value="2.000000" />
               <ApplyHysteresisCorrection value="1" />
@@ -1044,74 +1045,74 @@
             </Calc>
             <DecimalDigits value="6" />
           </Variable>
-          <Variable index="7">
+          <Variable index="7" >
             <CalcID value="70" />
-            <Calc UnitID="49" Ordinal="0">
+            <Calc UnitID="49" Ordinal="0" >
               <FullName value="Salinity, Practical [PSU]" />
             </Calc>
             <DecimalDigits value="5" />
           </Variable>
-          <Variable index="8">
+          <Variable index="8" >
             <CalcID value="84" />
-            <Calc UnitID="52" Ordinal="0">
+            <Calc UnitID="52" Ordinal="0" >
               <FullName value="Time, Elapsed [seconds]" />
             </Calc>
             <DecimalDigits value="4" />
           </Variable>
-          <Variable index="9">
+          <Variable index="9" >
             <CalcID value="54" />
-            <Calc UnitID="40" Ordinal="0">
+            <Calc UnitID="40" Ordinal="0" >
               <FullName value="Oxygen Saturation, Weiss [ml/l]" />
             </Calc>
             <DecimalDigits value="6" />
           </Variable>
         </ArrayOfVariables>
       </WindowsSocketOutputData>
-      <SharedFileOutputData>
+      <SharedFileOutputData >
         <File value="" />
         <EnableSharedFileOutput value="0" />
         <FormatXML value="0" />
         <SecondsBetweenUpdates value="0.000000" />
-        <ArrayOfVariables Size="9">
-          <Variable index="0">
+        <ArrayOfVariables Size="9" >
+          <Variable index="0" >
             <CalcID value="72" />
-            <Calc UnitID="-1" Ordinal="0">
+            <Calc UnitID="-1" Ordinal="0" >
               <FullName value="Scan Count" />
             </Calc>
             <DecimalDigits value="0" />
           </Variable>
-          <Variable index="1">
+          <Variable index="1" >
             <CalcID value="81" />
-            <Calc UnitID="6" Ordinal="0">
+            <Calc UnitID="6" Ordinal="0" >
               <FullName value="Temperature [ITS-90, deg C]" />
             </Calc>
             <DecimalDigits value="5" />
           </Variable>
-          <Variable index="2">
+          <Variable index="2" >
             <CalcID value="12" />
-            <Calc UnitID="58" Ordinal="0">
+            <Calc UnitID="58" Ordinal="0" >
               <FullName value="Conductivity [S/m]" />
             </Calc>
             <DecimalDigits value="7" />
           </Variable>
-          <Variable index="3">
+          <Variable index="3" >
             <CalcID value="65" />
-            <Calc UnitID="3" Ordinal="0">
+            <Calc UnitID="3" Ordinal="0" >
               <FullName value="Pressure, Digiquartz [db]" />
             </Calc>
             <DecimalDigits value="4" />
           </Variable>
-          <Variable index="4">
+          <Variable index="4" >
             <CalcID value="17" />
-            <Calc UnitID="31" Ordinal="0">
+            <Calc UnitID="31" Ordinal="0" >
               <FullName value="Depth [salt water, m]" />
               <Latitude value="0.000000" />
             </Calc>
             <DecimalDigits value="4" />
           </Variable>
-          <Variable index="5">
+          <Variable index="5" >
             <CalcID value="55" />
-            <Calc UnitID="40" Ordinal="0">
+            <Calc UnitID="40" Ordinal="0" >
               <FullName value="Oxygen, SBE 43 [ml/l]" />
               <WindowSize value="2.000000" />
               <ApplyHysteresisCorrection value="1" />
@@ -1119,9 +1120,9 @@
             </Calc>
             <DecimalDigits value="6" />
           </Variable>
-          <Variable index="6">
+          <Variable index="6" >
             <CalcID value="55" />
-            <Calc UnitID="47" Ordinal="0">
+            <Calc UnitID="47" Ordinal="0" >
               <FullName value="Oxygen, SBE 43 [% saturation]" />
               <WindowSize value="2.000000" />
               <ApplyHysteresisCorrection value="1" />
@@ -1129,16 +1130,16 @@
             </Calc>
             <DecimalDigits value="6" />
           </Variable>
-          <Variable index="7">
+          <Variable index="7" >
             <CalcID value="54" />
-            <Calc UnitID="40" Ordinal="0">
+            <Calc UnitID="40" Ordinal="0" >
               <FullName value="Oxygen Saturation, Weiss [ml/l]" />
             </Calc>
             <DecimalDigits value="6" />
           </Variable>
-          <Variable index="8">
+          <Variable index="8" >
             <CalcID value="70" />
-            <Calc UnitID="49" Ordinal="0">
+            <Calc UnitID="49" Ordinal="0" >
               <FullName value="Salinity, Practical [PSU]" />
             </Calc>
             <DecimalDigits value="5" />
@@ -1146,84 +1147,84 @@
         </ArrayOfVariables>
       </SharedFileOutputData>
     </AsciiOutSettings>
-    <SBE11AlarmSettings>
-      <AltimeterAlarm>
+    <SBE11AlarmSettings >
+      <AltimeterAlarm >
         <Enable value="0" />
         <SetPoint value="0.000000" />
         <Hysteresis value="0.000000" />
         <MinimumPressureToEnable value="0.000000" />
       </AltimeterAlarm>
-      <MinimumPressureAlarm>
+      <MinimumPressureAlarm >
         <Enable value="0" />
         <SetPoint value="0.000000" />
       </MinimumPressureAlarm>
-      <MaxiumuPressureAlarm>
+      <MaxiumuPressureAlarm >
         <Enable value="0" />
         <SetPoint value="0.000000" />
       </MaxiumuPressureAlarm>
-      <BottomContactSwitchAlarm>
+      <BottomContactSwitchAlarm >
         <Enable value="0" />
       </BottomContactSwitchAlarm>
     </SBE11AlarmSettings>
-    <RemoteDisplaySettings>
+    <RemoteDisplaySettings >
       <EnableRemoteDisplay value="0" />
       <ComPort value="5" />
       <SecondsBetweenUpdates value="1.000000" />
       <RemoteDisplayDataType value="4" />
       <DepthType value="1" />
-      <AlarmSettings>
-        <AltimeterAlarm>
+      <AlarmSettings >
+        <AltimeterAlarm >
           <Enable value="1" />
           <SetPoint value="0.000000" />
           <Hysteresis value="0.000000" />
           <MinimumPressureToEnable value="0.000000" />
         </AltimeterAlarm>
-        <MinimumPressureAlarm>
+        <MinimumPressureAlarm >
           <Enable value="0" />
           <SetPoint value="2.000000" />
         </MinimumPressureAlarm>
-        <MaxiumuPressureAlarm>
+        <MaxiumuPressureAlarm >
           <Enable value="0" />
           <SetPoint value="300.000000" />
         </MaxiumuPressureAlarm>
-        <BottomContactSwitchAlarm>
+        <BottomContactSwitchAlarm >
           <Enable value="0" />
         </BottomContactSwitchAlarm>
       </AlarmSettings>
     </RemoteDisplaySettings>
-    <PC_AlarmSettings>
+    <PC_AlarmSettings >
       <UseInternalSpeaker value="0" />
-      <AltimeterAlarm>
+      <AltimeterAlarm >
         <Enable value="0" />
         <SetPoint value="0.000000" />
         <Hysteresis value="0.000000" />
         <MinimumPressureToEnable value="0.000000" />
       </AltimeterAlarm>
-      <MinimumPressureAlarm>
+      <MinimumPressureAlarm >
         <Enable value="0" />
         <SetPoint value="0.000000" />
       </MinimumPressureAlarm>
-      <MaxiumuPressureAlarm>
+      <MaxiumuPressureAlarm >
         <Enable value="0" />
         <SetPoint value="0.000000" />
       </MaxiumuPressureAlarm>
-      <BottomContactSwitchAlarm>
+      <BottomContactSwitchAlarm >
         <Enable value="0" />
       </BottomContactSwitchAlarm>
     </PC_AlarmSettings>
-    <AlarmDisplayDialogPosition>
+    <AlarmDisplayDialogPosition >
       <Rectangle left="14" top="71" right="110" bottom="168" />
       <Visible value="0" />
     </AlarmDisplayDialogPosition>
-    <FireBottleDialogPosition>
-      <Rectangle left="707" top="884" right="1091" bottom="1019" />
+    <FireBottleDialogPosition >
+      <Rectangle left="694" top="877" right="1078" bottom="1012" />
       <Visible value="1" />
     </FireBottleDialogPosition>
-    <MarkScanDialogPosition>
+    <MarkScanDialogPosition >
       <Rectangle left="222" top="50" right="420" bottom="146" />
       <Visible value="0" />
     </MarkScanDialogPosition>
-    <NMEA_DialogPosition>
+    <NMEA_DialogPosition >
       <Rectangle left="1363" top="665" right="1581" bottom="904" />
       <Visible value="0" />
     </NMEA_DialogPosition>
