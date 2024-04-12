@@ -154,7 +154,7 @@
           </CalibrationCoefficients>
           <CalibrationCoefficients equation="1" >
             <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
-            <Soc>3.8852e-001</Soc>
+            <Soc>3.8071e-001</Soc>
             <offset>-0.7004</offset>
             <A>-4.4432e-003</A>
             <B> 1.8923e-004</B>
@@ -186,7 +186,7 @@
           </CalibrationCoefficients>
           <CalibrationCoefficients equation="1" >
             <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
-            <Soc>4.8839e-001</Soc>
+            <Soc>4.7828e-001</Soc>
             <offset>-0.5058</offset>
             <A>-3.9950e-003</A>
             <B> 1.2506e-004</B>
@@ -234,7 +234,7 @@
           <SerialNumber>87405</SerialNumber>
           <CalibrationDate>13-Jul-23</CalibrationDate>
           <ScaleFactor>15.000</ScaleFactor>
-          <Offset>0.900</Offset>
+          <Offset>0.000</Offset>
         </AltimeterSensor>
       </Sensor>
       <Sensor index="11" SensorID="42" >

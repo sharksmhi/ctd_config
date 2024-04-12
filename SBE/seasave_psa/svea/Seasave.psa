@@ -28,18 +28,18 @@
       <Parity value="78" />
     </InstrumentPortConfiguration>
     <HeaderForm HeaderChoice="1" >
-      <Prompt index="0" value="Station: 9W M&#xE5;sesk&#xE4;r" />
-      <Prompt index="1" value="Operator: JKro" />
+      <Prompt index="0" value="Station: BY13" />
+      <Prompt index="1" value="Operator: OBac" />
       <Prompt index="2" value="Ship: 77SE Svea" />
-      <Prompt index="3" value="Cruise: 77SE-2023-14" />
+      <Prompt index="3" value="Cruise: 77SE-2024-09" />
       <Prompt index="4" value="Latitude [GG MM.mm N]: " />
       <Prompt index="5" value="Longitude [GG MM.mm E]: " />
-      <Prompt index="6" value="Pumps: PrimaryPump: 6060 # SecondaryPump: 6061" />
-      <Prompt index="7" value="EventIDs: EventID:  # ParentEventID: " />
+      <Prompt index="6" value="Pumps: PrimaryPump: 6060 # SecondaryPump: 9782" />
+      <Prompt index="7" value="EventIDs: EventID: 235C0E0B-F005-45E4-A100-D33322CAC33E # ParentEventID: 798C59F6-B950-4074-979B-6A92E7059CBB" />
       <Prompt index="8" value="Additional Sampling: " />
-      <Prompt index="9" value="Metadata admin: MPROG: NATL # PROJ: IBT # ORDERER: SLUA # SLABO: SMHI # ALABO: SMHI # REFSK: HC-B-B8, HC-C-C2, OM7" />
-      <Prompt index="10" value="Metadata conditions: WADEP: 137 # WINSP: 5 # WINDIR: 34 # AIRPRES: 1010 # AIRTEMP: 16.2 # WEATH: 1 # CLOUD: 2 # WAVES: 2 # ICEOB: 0 # COMNT_VISIT: " />
-      <Prompt index="11" value="LIMS Job: 20237710-0670" />
+      <Prompt index="9" value="Metadata admin: MPROG: NATL # PROJ: BAS # ORDERER: HAV, SMHI # SLABO: SMHI # ALABO: SMHI # REFSK: HC-B-B8, HC-C-C2, OM7" />
+      <Prompt index="10" value="Metadata conditions: WADEP: 122 # WINSP: 13 # WINDIR: 23 # AIRPRES: 1019.3 # AIRTEMP: 5.3 # WEATH: 1 # CLOUD: 6 # WAVES: 5 # ICEOB: 0 # COMNT_VISIT: " />
+      <Prompt index="11" value="LIMS Job: 20247710-0263" />
     </HeaderForm>
     <ArchivedDataPlaybackSettings >
       <PlaybackFilePath value="L:\2021\sv21d0938_test.hex" />
@@ -79,8 +79,8 @@
         <A1Multiplier value="0" />
       </PotentialTempAnomaly>
     </MiscellaneousCalcData>
-    <ConfigurationFilePath value="C:\svea_ctd\ctd_config\SBE\XMLCON\SBE09\SBE09_1044_20230912_0000.xmlcon" />
-    <DataFilePath value="L:\2023\SBE09_1044_20230901_1052_77SE_14_0670.hex" />
+    <ConfigurationFilePath value="C:\svea_ctd\ctd_config\SBE\XMLCON\SBE09\SBE09_1044_20240412_0000.xmlcon" />
+    <DataFilePath value="L:\2024\SBE09_1044_20240411_1636_77SE_09_0263.hex" />
     <WaterSamplerConfiguration Type="5" Port="1" NumberOfWaterBottles="24" FiringSequence="1" EnableRemoteFiring="0" BeepUsesInternalSpeakers="1" GO1016ArmOffset="0" >
       <PositionsForTableDrivenFiring >
         <TableEntry BottleNumber="0" Position="1" />
@@ -227,8 +227,8 @@
               <AxisColor value="0" />
               <ScaleType value="0" />
               <MinimumValue value="0.000000" />
-              <MaximumValue value="140.000000" />
-              <MajorDivisions value="14" />
+              <MaximumValue value="130.000000" />
+              <MajorDivisions value="13" />
               <MinorDivisions value="2" />
               <ReverseScaleDirection value="1" />
               <DecimalDigits value="0" />
@@ -614,14 +614,14 @@
               <Fore value="0" />
               <Back value="16777215" />
             </SelCalcRow>
-            <Position left="698" top="81" right="1261" bottom="880" />
+            <Position left="697" top="74" right="1260" bottom="873" />
             <WindowPlacement >
               <length value="44" />
               <flags value="0" />
               <showCmd value="1" />
               <ptMinPosition x="-1" y="-1" />
               <ptMaxPosition x="-1" y="-1" />
-              <rcNormalPosition left="698" top="81" right="1261" bottom="880" />
+              <rcNormalPosition left="697" top="74" right="1260" bottom="873" />
             </WindowPlacement>
             <SecBetweenUpdate value="1.000000" />
             <PixelX value="6" />
@@ -699,8 +699,8 @@
               <AxisColor value="0" />
               <ScaleType value="0" />
               <MinimumValue value="0.000000" />
-              <MaximumValue value="140.000000" />
-              <MajorDivisions value="14" />
+              <MaximumValue value="130.000000" />
+              <MajorDivisions value="13" />
               <MinorDivisions value="2" />
               <ReverseScaleDirection value="1" />
               <DecimalDigits value="0" />
@@ -1217,7 +1217,7 @@
       <Visible value="0" />
     </AlarmDisplayDialogPosition>
     <FireBottleDialogPosition >
-      <Rectangle left="694" top="877" right="1078" bottom="1012" />
+      <Rectangle left="704" top="876" right="1088" bottom="1011" />
       <Visible value="1" />
     </FireBottleDialogPosition>
     <MarkScanDialogPosition >
