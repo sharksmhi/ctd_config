@@ -154,7 +154,8 @@
           </CalibrationCoefficients>
           <CalibrationCoefficients equation="1" >
             <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
-            <Soc>3.8071e-001</Soc>
+            <!-- SOC adjusted 2025-01-23 /OBac -->
+            <Soc>3.8830e-001</Soc>
             <offset>-0.7004</offset>
             <A>-4.4432e-003</A>
             <B> 1.8923e-004</B>
@@ -186,7 +187,8 @@
           </CalibrationCoefficients>
           <CalibrationCoefficients equation="1" >
             <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
-            <Soc>4.9900e-001</Soc>
+            <!-- SOC adjusted 2025-01-23 /OBac -->
+            <Soc>4.9020e-001</Soc>
             <offset>-0.5058</offset>
             <A>-3.9950e-003</A>
             <B> 1.2506e-004</B>
