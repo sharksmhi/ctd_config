@@ -17,5 +17,5 @@
   <UseDeckPressure value="0" />
   <SurfaceSoakDepth value="8.000000" />
   <SurfaceSoakDepthMin value="5.000000" />
-  <SurfaceSoakDepthMax value="15.000000" />
+  <SurfaceSoakDepthMax value="12.000000" />
 </Loop_Edit>
