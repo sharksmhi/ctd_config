@@ -208,7 +208,7 @@
           <CalibrationDate>26-jan-22</CalibrationDate>
           <ScaleFactor>1.00000000e+001</ScaleFactor>
           <!-- Dark output -->
-          <Vblank>0.0720</Vblank>
+          <Vblank>0.0670</Vblank>
         </FluoroWetlabECO_AFL_FL_Sensor>
       </Sensor>
       <Sensor index="8" SensorID="67" >
@@ -217,7 +217,7 @@
           <CalibrationDate>26-Jan-22</CalibrationDate>
           <ScaleFactor>5.000000</ScaleFactor>
           <!-- Dark output -->
-          <DarkVoltage>0.071000</DarkVoltage>
+          <DarkVoltage>0.070000</DarkVoltage>
         </TurbidityMeter>
       </Sensor>
       <Sensor index="9" SensorID="20" >
